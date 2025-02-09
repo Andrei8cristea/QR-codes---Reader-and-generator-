@@ -2,6 +2,7 @@
 QR code reader and generator in python which does not use functions from libraries that directly manipulate QR codes.
 
 Cristea Andrei - grupa 134
+
 Nicula Andrei  - grupa 134
 
 
@@ -17,7 +18,7 @@ Folosesc functii din biblioteca cv2 pentru a transforma o imagine cu un qr code 
 2.Dupa ce am aflat tipul mastii xorez matricea cu masca respectiva si obtin astfel matricea initala(a xor masca xor masca = a)
 3.Citesc din cod si decodific incepand de la primul byte de continut si ma opresc cand ajung la terminatorul 0000
 4.Afisez outputul
-5.Nota: Mentionez ca inainte sa implementez functia qr_to_matrix am folosit functii din biblioteca qrcode pentru a creea matricea respectiva si a face debug pe cod.
+5.Nota: Mentionez ca inainte sa implementez functia qr_to_matrix am folosit functii din biblioteca qrcode pentru a creea matricea respectiva si a face debug pe cod. Am lasat si acel cod in comentarii
 
 GENERATOR
 
@@ -27,8 +28,6 @@ Folsesc matrici din biblioteca numpy si functii din matplotlib pentru ca la fina
 Nota: algoritmul lui reed solomon se bazeaza pe faptul ca exista un singur polinom grad n-1 care sa treaca prin n puncte. Asadar, daca construiesc acest polinom nu doar ca voi stii sigur ce biti au fost corupti dar voi avea si o metoda pentru a afla ce valoare transmiteau initial(gasind valoarea polinomului in punctul respectiv)
 3.Xorez cu toate cele 8 masti si calculez scorul pentru fiecare
 4.Afisez qr ul cu scorul de penalizare cel mai mic.
-
-
 SURSE:
 
 Am cautat informatii pe diverse site-uri si am vizionat videoclipuri pe youtube pentru a intelege cum functioneaza codurile qr. Dau mai jos lista link-urilor catre acestea:
@@ -44,3 +43,8 @@ https://www.youtube.com/watch?v=Rc3ul6RRANU&ab_channel=ProfessorJulioLombaldo
 https://www.youtube.com/watch?v=sRgUrKWiXQs&ab_channel=NoOneAsked
 
 https://www.youtube.com/watch?v=1pQJkt7-R4Q&t=650s&ab_channel=vcubingx
+
+
+
+NOTA: am atasat si un fisier txt in care sunt precizate bibiliotecile utilizate.
+
