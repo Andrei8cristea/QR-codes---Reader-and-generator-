@@ -338,7 +338,7 @@ dimension = 25
 #input
 
 
-#full_task("134_Cristea_Andrei&Nicula_Andrei")
+#full_task("Andrei & Andrei Codes")
 
 full_task("https://cs.unibuc.ro/~crusu")
 
