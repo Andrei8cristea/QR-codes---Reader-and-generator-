@@ -287,7 +287,7 @@ def afisare_output(img_path):
 ##################################################################
 
 afisare_output("qr_link_pagina_cursului.png")
-afisare_output("Andrei_si_niku.png")
+afisare_output("Andrei & Andrei Codes.png")
 
 
 #print(citeste_codul_qr2("test"))
