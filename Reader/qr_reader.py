@@ -1,4 +1,4 @@
-#Cristea Andrei si Necula Andrei --- grupa 134
+#Cristea Andrei si Nicula Andrei --- grupa 134
 
 #import qrcode
 import numpy as np
